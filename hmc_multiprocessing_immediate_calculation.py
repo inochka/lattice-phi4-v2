@@ -12,10 +12,11 @@ from core.utils import get_corr_func_mom_optimized, get_momenta_grid, get_corr_f
 
 M = 32
 
-#G_s = [0.0, 0.5, 1.0, 2.0, 5.0, 10.0, 20.0, 40.0]
-#G_s = [0.5, 2.0, 5.0, 10.0, 40.0]
-G_s = [5., 10.]
-G_s.reverse()
+G_s = [2.0, 5.0, 10.0, 40.0]
+#G_s = [40.0]
+#G_s = [5., 10.]
+#G_s = [0.5]
+#G_s.reverse()
 #G_s = [0.0]
 gammas = [1.]
 alpha = 1.
